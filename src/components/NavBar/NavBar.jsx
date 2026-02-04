@@ -6,10 +6,13 @@ import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 import Logo from "../../assets/logo.png";
 import FotoDoPerfil from "../../assets/perfil.jpg";
+
+import styles from "./NavBar.module.scss";
+
 function NavBar() {
   return (
     <BrowserRouter>
-      <nav>
+      <nav className={styles.navBar}>
         <Link to="/">
           <img src={Logo} alt="Logo" />
         </Link>
@@ -25,7 +28,7 @@ function NavBar() {
           </li>
         </ul>
         <Link to="/perfil">
-          <img src={FotoDoPerfil} alt="Foto do perfil" />
+          <img className={styles.imgPerfil} src={FotoDoPerfil} alt="Foto do perfil" />
         </Link>
       </nav>
       <Routes>

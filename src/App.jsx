@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from "./components/NavBar/NavBar"
+import "./global.scss"
 function App() {
   return (
     <>
