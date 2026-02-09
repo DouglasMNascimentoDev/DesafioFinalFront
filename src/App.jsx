@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from "./components/NavBar/NavBar"
 import Perfil from "./components/Perfil/Perfil"
+
 import "./global.scss"
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       
     <NavBar/>
     <Perfil/>
+    
     </>
   )
 }
