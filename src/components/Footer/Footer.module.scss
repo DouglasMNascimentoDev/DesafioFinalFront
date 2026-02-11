@@ -1,34 +1,35 @@
-footer{
-    background-color: #205691;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 15vh;
-    color: #FFFFFF;
-
-div{
-    //border: solid red;
+footer {
+  background-color: #205691;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  color: #ffffff;
+  div {
+    // border: solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 15%;
-}
-p{
-    //border: solid white;
-    width: 23%;
+    h2 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+  p {
+    //  border: solid white;
+    width: 25%;
     font-weight: 400;
     text-align: center;
-}
-nav{
+  }
+  .navFooter {
     //border: solid red;
     width: 15%;
     display: flex;
     justify-content: space-around;
+  }
 }
-}
-
 //Responsivo do footer
-
 @media (min-width: 201px) and (max-width: 500px) {
   footer {
     flex-direction: column-reverse;
@@ -43,7 +44,7 @@ nav{
     p {
       width: 90%;
     }
-    nav {
+  .navFooter {
       width: 80%;
     }
   }
